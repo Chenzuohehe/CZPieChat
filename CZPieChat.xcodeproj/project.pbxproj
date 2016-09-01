@@ -15,6 +15,7 @@
 		4E2872B11D77F7C900675F0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E2872AF1D77F7C900675F0A /* LaunchScreen.storyboard */; };
 		4E2872BC1D77F7CA00675F0A /* CZPieChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2872BB1D77F7CA00675F0A /* CZPieChatTests.m */; };
 		4E2872C71D77F7CA00675F0A /* CZPieChatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2872C61D77F7CA00675F0A /* CZPieChatUITests.m */; };
+		4E2872D61D77F8C700675F0A /* CZPieChatView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2872D51D77F8C700675F0A /* CZPieChatView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		4E2872C21D77F7CA00675F0A /* CZPieChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CZPieChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E2872C61D77F7CA00675F0A /* CZPieChatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CZPieChatUITests.m; sourceTree = "<group>"; };
 		4E2872C81D77F7CA00675F0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E2872D41D77F8C700675F0A /* CZPieChatView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZPieChatView.h; sourceTree = "<group>"; };
+		4E2872D51D77F8C700675F0A /* CZPieChatView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZPieChatView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				4E2872A51D77F7C900675F0A /* AppDelegate.m */,
 				4E2872A71D77F7C900675F0A /* ViewController.h */,
 				4E2872A81D77F7C900675F0A /* ViewController.m */,
+				4E2872D41D77F8C700675F0A /* CZPieChatView.h */,
+				4E2872D51D77F8C700675F0A /* CZPieChatView.m */,
 				4E2872AA1D77F7C900675F0A /* Main.storyboard */,
 				4E2872AD1D77F7C900675F0A /* Assets.xcassets */,
 				4E2872AF1D77F7C900675F0A /* LaunchScreen.storyboard */,
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E2872D61D77F8C700675F0A /* CZPieChatView.m in Sources */,
 				4E2872A91D77F7C900675F0A /* ViewController.m in Sources */,
 				4E2872A61D77F7C900675F0A /* AppDelegate.m in Sources */,
 				4E2872A31D77F7C900675F0A /* main.m in Sources */,

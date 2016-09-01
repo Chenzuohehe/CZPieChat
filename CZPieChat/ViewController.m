@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "CZPieChatView.h"
 
 @interface ViewController ()
 
@@ -16,12 +17,21 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    CZPieChatView * view = [[CZPieChatView alloc]initWithFrame:CGRectMake(100, 100, 100, 100)];
+    
+    view.strokeColor = [UIColor grayColor];
+    view.duration = 0.8;
+    view.percent = 0.75;
+    
+    [view show];
+    
+    [self.view addSubview:view];
+    
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 @end
